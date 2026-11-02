@@ -1,0 +1,200 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(16, 15, 22);
+    margin-inline: 6rem;
+    margin-block: 2rem 6rem;
+
+    h1 {
+        text-align: center;
+    
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #c7c7df;
+
+        background-color: rgb(40, 37, 54);
+        border-radius: .5rem;
+
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+}
+
+
+.tabela-campeonato {
+    width: 100%;    
+    padding: 2rem;
+
+    border: none; 
+    
+
+    background-color: rgb(40, 37, 54);
+    border-radius: .5rem;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+
+    thead tr {
+        
+        background-color: rgb(86, 81, 107);
+        color: rgb(1, 1, 1);
+
+        th {
+            padding-block: .5rem;
+            padding-inline: .5rem;
+        }
+
+        
+    }
+
+    tbody {
+        
+        tr {
+            td {
+                text-align: center;
+                vertical-align: middle;
+
+                padding-block: .5rem;
+
+            }
+
+            td.time {
+                text-align: left;
+                padding-left: 1rem;
+
+            }
+        }
+    }
+
+}
+
+/* POS - posicao */
+.pos-verde {
+    background-color: #83e28e;
+}
+
+.pos-verde-claro {
+    background-color: #c1f0c8;
+}
+
+.pos-azul {
+    background-color: #dae9f8;
+}
+
+.pos-branco {
+    background-color: #fbe2d5;
+}
+
+.pos-vermelho {
+    background-color: #fbe2d5;
+}
+
+/* J */
+
+.j-azul {
+    background-color: #c0e6f5;
+}
+
+.j-marrom {
+    background-color: #d5bfb0;
+}
+
+.j-laranja {
+    background-color: #ea986c;
+}
+
+.j-laranja-escuro {
+    background-color: #ff7128;
+}
+
+/* Apr */
+
+.apr-verde-escuro {
+    background-color: #63be7b;
+}
+
+.apr-verde {
+    background-color: #8ace9c;
+}
+
+.apr-verde-claro {
+    background-color: #b8e1c4;
+}
+
+.apr-verde-clarissimo {
+    background-color: #d6edde;
+}
+
+.apr-branco {
+    background-color: #fcfcff;
+}
+
+.apr-rosa-claro {
+    background-color: #fbf2f5;
+}
+
+.apr-rosa {
+    background-color: #fbe2e5;
+}
+
+.apr-vermelho-claro {
+    background-color: #fababd;
+}
+.apr-vermelho {
+    background-color: #f87c7e;
+}
+.apr-vermelho-escuro {
+    background-color:#f8696b;
+}
+
+.roxinho {
+    td.time,
+    td.pts,
+    td.v,
+    td.sg {
+        background-color: #c7c7df;
+    }
+}
+
+.branco {
+    td.time,
+    td.pts,
+    td.v,
+    td.sg {
+        background-color: #eae8fa;
+    }
+}
+
+/*
+
+
+
+
+
+.tabela-campeonato tr.g4 { background-color: #f1fcf1; }
+.tabela-campeonato tr.sula { background-color: #f3fafc; }
+.tabela-campeonato tr.neutro { background-color: #ffffff; }
+.tabela-campeonato tr.rebaixamento { background-color: #fff5f5; }
+
+
+.tabela-campeonato tr.g4 .pos { border-left: 4px solid #28a745; }
+.tabela-campeonato tr.sula .pos { border-left: 4px solid #17a2b8; }
+.tabela-campeonato tr.neutro .pos { border-left: 4px solid #cccccc; }
+.tabela-campeonato tr.rebaixamento .pos { border-left: 4px solid #dc3545; }
+
+
+.tabela-campeonato .apr {
+  font-weight: 500;
+}
+.tabela-campeonato .apr-excelente { background-color: #74c493; color: #fff; }
+.tabela-campeonato .apr-bom { background-color: #a1d7b4; }
+.tabela-campeonato .apr-medio { background-color: #cceadd; }
+.tabela-campeonato .apr-ruim { background-color: #fbc4c4; }
+.tabela-campeonato .apr-pessimo { background-color: #f79696; color: #fff; }
+
+*/
